@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,28 +13,39 @@
   <body>
     <header>
       <h1>Portfolio - Evan McCullough</h1>
+
       <nav>
         <ul>
-            <li>About Me</li>
-            <li>Contact Me</li>
-            <li>Work</li>
-            <li>Resume</li>
+            <li id="navID">
+              <a href="#AboutMe">About Me</a>
+            </li>
+            <li id="navID">
+              <a href="#ContactMe">Contact Me</a>
+            </li>
+            <li id="navID">
+              <a href="#Work">Work</a>
+            </li>
+            <li id="navID">
+              <a href="#Resume">Resume</a>
+            </li>
         </ul>
       </nav>
-      <h2>Portfolio</h2>
+      <img src="assets/images/evBrisk.jpeg" alt="Picture of Evan McCullough">
+
       </header>
 
     <main>
 
-        <section>
+        <section id="AboutMe">
             <h3>
                 About Me
             </h3>
+
             <p>
                 My name is Evan McCullough, I currently work as a tennis coach and personal trainer.  However, I was educated and worked as a mechanical engineer. Now I am looking to make a change and enter the tech industry.
             </p>
         </section>
-        <section>
+        <section id="ContactMe">
             <h3>
                 Contact Me
             </h3>
@@ -41,18 +54,21 @@
                 <li>phone number: 502-298-0187</li>
             </ul>
         </section>
-        <section>
+        <section id="Work">
             <h3>Work</h3>
+            <h4>Rock Paper Scissors (Coming Soon)</h4>
+            <img id= "Image2" src="assets/images/RPS.jpeg" alt="Rock Paper Scissors">
+            <h4>Video Game (Coming Soon)</h4>
+            <img src="assets/images/videogame.jpeg" alt="Video Game">
         </section>
-
-
-            
-            <h3>Resume</h3>
-
+        <section id="Resume">
+          <h3>Resume</h3>
+          <img id="Image2"  src="assets/images/ResumePic.png" alt="Resume">
+        </section>
     </main>
 
     <footer>
-      <h2>Made with ❤ and CSS</h2>
+      <p>Created by Evan McCullough circa 2023</p>
     </footer>
   </body>
 </html>
