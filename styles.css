@@ -1,0 +1,87 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+  }
+
+.grow{
+    width: 30%;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+body{
+  background-color: aqua;
+}
+
+header{
+  background-color: blue;
+}
+
+nav{
+  background-color: red;
+  font-size: larger;
+}
+
+ul {
+width: 100%;
+display:inline;
+
+
+}
+
+ul li{ 
+display: inline;
+position:relative;
+left: 1000px;
+margin-right: 10px;
+    
+    
+}
+
+  
+  
+  h1 {
+    color: rgb(218, 21, 218);
+    text-align: left;
+  }
+  
+
+  h2 {
+    text-align: left;
+    width: 260px;
+    position: relative;
+    left:1000px;
+    border: white;
+    border-style: solid;
+  }
+  
+ figure { 
+ border: white; 
+ border-style: dashed; 
+
+
+ 
+
+/* .grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 3fr);
+} */
+
+  p {
+    color: white;
+  }
+  
+  header {
+    border: 5px solid yellow;
+  }
+  
+  main {
+    border: 5px solid green;
+  }
+  
+  footer {
+    color: purple;
+    border: 5px solid red;
+  }
