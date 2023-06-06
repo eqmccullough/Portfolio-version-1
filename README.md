@@ -4,4 +4,10 @@ Created intial version of portfolio to eventually be used in job search. Utilize
 
 Includes sections including About Me, Contact Me, Work, and Resume.
 
-![porfolio](./assets/images/portfolio.png)
+![alt text](https://github.com/eqmccullough/Portfolio-version-1/blob/main/Assets/images/Portfolio.png?raw=true)
+
+repo site
+https://github.com/eqmccullough/Portfolio-version-1
+
+deployed page
+https://eqmccullough.github.io/Portfolio-version-1/

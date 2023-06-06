@@ -13,7 +13,9 @@ body{
 
 header{
   background-color: blue;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 nav{
